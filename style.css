@@ -18,6 +18,25 @@ body{
     font-size:1em;
     padding:5px 20px;
 }
+.finput{
+    max-width: none !important;
+    display: inline-block;
+    width: 100%;
+}
+.ftext{
+    background-color:rgb(255,255,255,0);
+    border:white solid 1px;
+    border-radius: 6px;
+    width: 50% !important;
+    padding:4px 3px 2px;
+    max-width: none !important;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+/* .ftext, .form-textarea {
+    color: #ffffff;
+    padding: 4px 3px 2px 3px;
+} */
 .formContainer form {
     margin:4% auto;
     padding: 3vh;
@@ -29,6 +48,33 @@ body{
     border-radius: 30px;
     background-color: rgba(0,0,0,0.86);
     border: 1px solid transparent;
+}
+.fslabel{
+    min-height:13px;
+    color:rgb(108, 111, 111);
+    margin:3px 0px 3px 3px;
+    /* white-space: normal; */
+    font-size: 0.786em;
+    /* margin-top: 3px;
+    margin-bottom: 3px; */
+    word-wrap: break-word;
+    /* margin-left: 3px; */
+    display: block;
+    
+}
+/* span.fslcon:first-child{
+    padding-left: 0 !important;
+    padding-right: 4px !important
+}
+span.fslcon:last-child{
+    padding-left: 0 !important;
+    padding-right: 4px !important
+} */
+
+
+.fslcon{
+    vertical-align: top;
+
 }
 
 
