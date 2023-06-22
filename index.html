@@ -16,7 +16,7 @@
             <!-- <fieldset>
                 <legend class="headin">NAME OF THE STUDENT</legend>
             </fieldset> -->
-            <li class="fline" required>
+            <li class="fline" id="firstId" required>
                 <label for="frst_3" class="flabel">
                     Name
                     <span class="formReq">*</span>
@@ -35,14 +35,111 @@
                             <label for="last_3" class="fslabel">Last Name</label>
                         </span>
 
-                    </div>
+                    <!-- </div> -->
                 </div>
+                
+            </li>
+            
+            <!-- <label for="reg" class="flabel">Registration Number</label>
+            <div class="finput">
+                <input type="text" id="regis" class="ftext">
+            </div> -->
+            <li class="fline" id="secId" required>
+                <label for="reg_num" class="flabel">
+                    Registration Number
+                    <span class="formReq">*</span>
+                </label>
+                <div class="finput" required>
+                    <span class="fslcon">
+                        <input type="text" id="reg_num" class="ftext" required>
+                        <!-- <label for="reg_num" class="fslabel">Registration Number</label> -->
+                    </span>
+                </div>
+            </li>
+            <li class="fline" id="thirdId" required>
+                <label for="department" class="flabel">
+                    Department
+                    <span class="formReq">*</span>
+                </label>
+                <div class="finput" required>
+                    <span class="fslcon">
+                        <select id="department" class="ftext" required>
+                            <option value="">Select Department</option>
+                            <option value="CSE">CSE</option>
+                            <option value="EEE">EEE</option>
+                            <option value="mechanical">Mechanical</option>
+                            <option value="civil">Civil</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </span>
+                </div>
+            </li>
+            <li class="fline" id="fourthId" required>
+                <label for="grade" class="flabel">
+                    CGPA
+                    <span class="formReq">*</span>
+                </label>
+                <div class="finput" required>
+                    <span class="fslcon">
+                        <input type="text" id="grade" class="ftext" required>
+                        <!-- <label for="dept" class="fslabel">Registration Number</label> -->
+                    </span>
+                </div>
+            </li>
+            <li class="fline" id="fifthId" required>
+                <label for="position" class="flabel">
+                    Position you are Applying For
+                    <span class="formReq">*</span>
+                </label>
+                <div class="finput" required>
+                    <span class="fslcon">
+                        <select id="position" class="ftext" required>
+                            <option value="">Select Position</option>
+                            <option value="President">President</option>
+                            <option value="Vice-President">Vice-President</option>
+                            <option value="General Secretary">General Secretary</option>
+                            <option value="Treasurer">Treasurer</option>
+                        </select>
+                    </span>
+                </div>
+            </li>
+            <li class="fline" id="sixthId" required>
+                <label for="description" class="flabel">
+                    Brief Description About Yourself
+                    <span class="formReq">*</span>
+                </label>
+                <div class="finput" required>
+                    <span class="fslcon">
+                        <textarea id="description" class="ftext" required></textarea>
+                        <!-- <label for="description" class="fslabel">Enter Description</label> -->
+                    </span>
+                </div>
+            </li>
+            <li class="fline" id="sevenId" required>
+                <label for="reason" class="flabel">
+                    Why do you want to join Student Council
+                    <span class="formReq">*</span>
+                </label>
+                <div class="finput" required>
+                    <span class="fslcon">
+                        <textarea id="reason" class="ftext" required></textarea>
+                        <!-- <label for="reason" class="fslabel">Enter Description</label> -->
+                    </span>
+                </div>
+            </li>
+            <li class="fline" id="eightId">
+                <div class="submission">
+
+                    <input type="submit" class="submitBtn"></input>
+                </div>
+
             </li>
 
 
 
         </form>
     </div>
+   <script src="script.js"></script>
    
 </body>
 </html>
